@@ -1,0 +1,38 @@
+#IAN DAVE CHING 12-CPE-01
+# DICTIONARY IN PYDROID
+# ELECTRONIC COMPPNETS
+
+DICTIONARY = {
+        "RESISTOR": "Limits current flow and divides voltage",
+        "CAPACITOR": "Stores and releases electrical energy",
+        "INDUCTOR": "Stores energy in a magnetic field",
+        "DIODE": "Allows current to flow in one direction",
+        "ZENER DIODE": "Maintains a constant voltage",
+        "LED (LIGHT EMITTING DIODE)": "Emits light when current flows",
+        "TRANSISTOR": "Amplifies or switches electronic signals",
+        "MOSFET": "A type of transistor with high efficiency",
+        "PHOTODIODE": "Converts light into electrical current",
+        "TRIAC": "Controls AC power flow",
+        "OPTOCOUPLER": "Isolates sections of a circuits using light",
+        "RELAY": "An electromechanical switch",
+        "TRANSFORMER": "Transfer electrical energy between circuits",
+        "BATTERY": "Stores and supplies electrical energy",
+        "FUSE": "Protects circuits from overcurrent",
+        "THERMISTOR": "A temperature-sensitive resistor",
+        "CRYSTAL": "Generates precise frequency signals",
+        "MICROCONTROLLER": "A small computer on a chip",
+        "MICROPROCESSOR": "The brain of a computing system",
+        "555 TIMER IC": "Generates timing signals",
+        "VOLTAGE REGULATOR": "Maintains a constant output voltage",
+        "DC-DC CONVERTER": "Converts one DC voltage to another",
+        "AC-DC CONVERTER": "Converts AC power to DC",
+        "LCD (LIQUID CRYSTAL DISPLAY)": "A display technology",
+        "HALL EFFECT SENSOR": "Detects magnetic fields",
+        "PIEZOELECTRIC SENSOR": "Converts pressure into electrical signals",
+        "BUZZER": "Produces sound from electrical signals",
+        "ANTENNA": "Transmits or receives electromagnetic waves",
+        "RFID TAG": "Stores and transmits data wirelessly",
+        "HEAT SINK": "Disspates excess heat from components"
+          }
+a = input ("Type any components: ")
+print (DICTIONARY[a])
